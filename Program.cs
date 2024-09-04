@@ -175,8 +175,6 @@ while (cityHealth > 0 && manticoreHealth > 0)
         Console.Write("ELECTRICAL ");
         Console.ResetColor();
         Console.Write("damage this round.\n");
-        
-
 
     }
     else
