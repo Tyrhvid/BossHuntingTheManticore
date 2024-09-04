@@ -42,13 +42,58 @@
 
 using System.ComponentModel.Design;
 
-Console.ForegroundColor = ConsoleColor.Green;
-Console.WriteLine("Boss battle, you have to fight the Manticore: The Manticore begins with 10 health points and the city with 15. The game starts at round 1");
+Console.ForegroundColor = ConsoleColor.DarkGreen;
+
+Console.WriteLine(@" 
+                
+                     
+                    
+                                                                    }/
+                                                           }/      /,/
+                                                          /,;    ,/ ,/
+                                                         / `,  ,/  `,/
+                                                        / ,`,,/  ,`,;
+                                                   __  /  ,`/   ,`,;
+                                                _,`, `{  `,{   `,`;`
+                       /~\         .-:::-.     (--,   ;\ `,}  `,`;
+                     /` , \      ,:::::::::,     `~;   \},/  `,`;     ,-=-
+                    /. `  .\_   ;:::::::::::;  __,{     `/  `,`;     {
+                   / , ~ . ^ `~`\:::::::::::<<~>-,,`,    `-,  ``,_    }
+                /~~ . `  . ~  , .`~~\:::::::;    _-~  ;__,        `,-`
+       /`\    /~,  . ~ , '  `  ,  .` \::::;`   <<<~```   ``-,,__   ;
+      /` .`\ /` .  ^  ,  ~  ,  . ` . ~\~                       \\, `,__
+     / ` , ,`\.  ` ~  ,  ^ ,  `  ~ . . ``~~~`,                   `-`--, \
+    / , ~ . ~ \ , ` .  ^  `  , . ^   .   , ` .`-,___,---,__            ``
+  /` ` . ~ . ` `\ `  ~  ,  .  ,  `  ,  . ~  ^  ,  .  ~  , .`~---,___
+/` . `  ,  . ~ , \  `  ~  ,  .  ^  ,  ~  .  `  ,  ~  .  ^  ,  ~  .  `-,");
 Console.ResetColor();
+
+Console.ForegroundColor = ConsoleColor.Red;
+Console.WriteLine(@" ███▄ ▄███▓ ▄▄▄       ███▄    █ ▄▄▄█████▓ ██▓ ▄████▄   ▒█████   ██▀███  ▓█████ 
+▓██▒▀█▀ ██▒▒████▄     ██ ▀█   █ ▓  ██▒ ▓▒▓██▒▒██▀ ▀█  ▒██▒  ██▒▓██ ▒ ██▒▓█   ▀ 
+▓██    ▓██░▒██  ▀█▄  ▓██  ▀█ ██▒▒ ▓██░ ▒░▒██▒▒▓█    ▄ ▒██░  ██▒▓██ ░▄█ ▒▒███   
+▒██    ▒██ ░██▄▄▄▄██ ▓██▒  ▐▌██▒░ ▓██▓ ░ ░██░▒▓▓▄ ▄██▒▒██   ██░▒██▀▀█▄  ▒▓█  ▄ 
+▒██▒   ░██▒ ▓█   ▓██▒▒██░   ▓██░  ▒██▒ ░ ░██░▒ ▓███▀ ░░ ████▓▒░░██▓ ▒██▒░▒████▒
+░ ▒░   ░  ░ ▒▒   ▓▒█░░ ▒░   ▒ ▒   ▒ ░░   ░▓  ░ ░▒ ▒  ░░ ▒░▒░▒░ ░ ▒▓ ░▒▓░░░ ▒░ ░
+░  ░      ░  ▒   ▒▒ ░░ ░░   ░ ▒░    ░     ▒ ░  ░  ▒     ░ ▒ ▒░   ░▒ ░ ▒░ ░ ░  ░
+░      ░     ░   ▒      ░   ░ ░   ░       ▒ ░░        ░ ░ ░ ▒    ░░   ░    ░   
+       ░         ░  ░         ░           ░  ░ ░          ░ ░     ░        ░  ░
+                                             ░                                 ");
+Console.ResetColor();
+Console.ForegroundColor = ConsoleColor.DarkGray;
+Console.WriteLine("Press any key to continue.");
+Console.ResetColor();
+Console.ReadKey();
+Console.Clear();
+
+Console.ForegroundColor = ConsoleColor.Yellow;
+Console.Write("BOSS BATTLE!\n\n");
+Console.ResetColor();
+Console.Write("You have to fight the Manticore: The Manticore begins with 10 health points and the city with 15.\nThe game starts at round 1.");
 
 //Ask the first player to choose the Manticore’s distance from the city (0 to 100). Clear the screen afterward.
 
-Console.Write("\nPLayer 1, how far away from the city do you want to station the Manticore? It must be a number between 0 - 100: ");
+Console.Write("\n\nPLayer 1, how far away from the city do you want to station the Manticore? It must be a number between 0 - 100: ");
 
 
 Console.ForegroundColor = ConsoleColor.DarkMagenta;
